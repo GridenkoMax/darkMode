@@ -16,10 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyd-MG-DIj">
-                                <rect key="frame" x="106.5" y="62" width="107" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyd-MG-DIj">
+                                <rect key="frame" x="68.5" y="52" width="183" height="20.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="107" id="P0K-0b-EGe"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="183" id="P0K-0b-EGe"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -29,8 +29,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="uyd-MG-DIj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="42" id="NZp-B4-hEI"/>
-                            <constraint firstItem="uyd-MG-DIj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dyD-uI-16t"/>
+                            <constraint firstItem="uyd-MG-DIj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="Gbn-Fx-tmN"/>
+                            <constraint firstItem="uyd-MG-DIj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jf8-Lk-qpv"/>
                         </constraints>
                     </view>
                     <connections>

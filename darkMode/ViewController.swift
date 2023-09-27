@@ -13,15 +13,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        lbl.textColor = .blue
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         if #available(iOS 12.0, *){
             
             if self.traitCollection.userInterfaceStyle == .dark{
-                self.lbl.text = "Dark mode"
+                self.lbl.text = "Dark mode!"
             } else {
-                self.lbl.text = "Light mode"
+                self.lbl.text = "This is Light mode!"
             }
         }
     }
